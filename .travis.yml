@@ -9,11 +9,8 @@ php:
 matrix:
     allow_failures:
         - php: hhvm
-		
-before_install:
-  - PHPUnit self-update
   
 before_script: chmod a+x ./.ci/before_script.sh
 
-script: phpunit
+script: phpunit --self-update
 
