@@ -10,7 +10,7 @@ matrix:
     allow_failures:
         - php: hhvm
 
-before_script: chmod a+x .travis-phing.sh
+before_script: chmod a+x ./.ci/before_script.sh
 
 script: "vendor/bin/phpunit Tests" 
 
