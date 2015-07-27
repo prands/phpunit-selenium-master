@@ -12,7 +12,5 @@ matrix:
   
 before_script: chmod a+x ./.ci/before_script.sh
 
-script:
-  - phpunit
-  - php coverage-checker.php clover.xml 75
+script: phpunit
 
