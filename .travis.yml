@@ -11,4 +11,4 @@ matrix:
         - php: hhvm
 
 before_script: ./.ci/before_script.sh
-script: "vendor/bin/phpunit Tests" sds
+script: "vendor/bin/phpunit Tests"
