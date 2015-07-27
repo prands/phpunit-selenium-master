@@ -56,8 +56,8 @@ class Extensions_Selenium2TestCaseTest extends Tests_Selenium2TestCase_BaseTestC
 {
     public function testOpen()
     {
-        $this->url('html/test_open.html');
-        $this->assertStringEndsWith('html/test_open.html', $this->url());
+        $this->url('http://quantimodo.projectstatus.in');
+        $this->assertStringEndsWith('http://quantimodo.projectstatus.in', $this->url());
     }
 
     public function testVersionCanBeReadFromTheTestCaseClass()
